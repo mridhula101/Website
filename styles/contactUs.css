@@ -1,0 +1,97 @@
+@media (prefers-color-scheme:dark){
+  body{
+        background-color:var(--dark-Background);
+        color: var(--contrast-text);
+    }
+ .Contact{
+    background-color: #1e1e1e;
+    border:1px solid white;
+    
+ }
+
+ .get textarea{
+    background-color: #121212;
+    border: 1px solid white;
+        color: var(--contrast-text);
+ }
+
+ .get input[type="text"] ,.get input[type="email"] ,.get input[type="tel"]
+{
+     background-color: #121212;
+    border: 1px solid white;
+        color: var(--contrast-text);
+}
+
+.submit{
+     background-color:var(--dark-Background);
+        color: var(--contrast-text);
+        box-shadow: 0 2px 4px rgba(yellow);
+}
+
+}
+
+main{
+    padding:1em;
+    max-width:90%;
+    margin:0;
+}
+
+h1{
+    text-align:center;
+    margin-bottom: 1.5em;
+    margin: 0;
+}
+
+.Contact{
+display: flex;
+flex-direction: column;
+gap:1em;
+max-width: 500px;
+margin:0 auto;
+padding:1.5em;
+border: 1px solid black;
+background-color: white;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+}
+
+.get{
+    display: flex;
+    flex-direction: column;
+}
+
+.get input[type="text"] ,.get input[type="email"] ,.get input[type="tel"]{
+    padding:1em;
+    border:1px solid black;
+    font-size: 1em;
+    box-sizing: border-box;
+    width:100%;
+    height: 30px;
+}
+
+.get input textarea{
+     padding:1em;
+    border:1px solid black;
+    font-size: 1em;
+    box-sizing: border-box;
+    width:100%;
+    min-height: 130px;
+}
+
+
+.submit{
+    background-color: white;
+        box-shadow: 0 2px 4px black;
+        max-width: 100px;
+        margin:0.5em auto 0;
+}
+
+@media (min-width:768px){
+    .des h1{
+        text-align: left;
+    }
+}
